@@ -1,0 +1,274 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\\node\node
+5 warn package.json comp397_ass2_chen_300716064@1.0.0 No description
+6 warn package.json comp397_ass2_chen_300716064@1.0.0 No repository field.
+7 warn package.json comp397_ass2_chen_300716064@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'C:\\Users\\Windows\\Desktop\\web_game_ass2\\COMP397_Ass2_BixinChen_300716064',
+9 verbose install   [ 'easeljs',
+9 verbose install     'preloadjs',
+9 verbose install     'soundjs',
+9 verbose install     'tweenjs',
+9 verbose install     '@types/easeljs',
+9 verbose install     '@types/preloadjs',
+9 verbose install     '@types/soundjs',
+9 verbose install     '@types/tweenjs' ] ]
+10 info preinstall comp397_ass2_chen_300716064@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping easeljs@^1.0.2 C:\Users\Windows\Desktop\web_game_ass2\COMP397_Ass2_BixinChen_300716064
+13 verbose already installed skipping preloadjs@^1.0.1 C:\Users\Windows\Desktop\web_game_ass2\COMP397_Ass2_BixinChen_300716064
+14 verbose already installed skipping soundjs@^1.0.1 C:\Users\Windows\Desktop\web_game_ass2\COMP397_Ass2_BixinChen_300716064
+15 verbose already installed skipping tweenjs@^1.0.2 C:\Users\Windows\Desktop\web_game_ass2\COMP397_Ass2_BixinChen_300716064
+16 verbose cache add [ '@types/easeljs@^1.0.0', null ]
+17 verbose cache add name=undefined spec="@types/easeljs@^1.0.0" args=["@types/easeljs@^1.0.0",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '@types/easeljs@^1.0.0',
+18 verbose parsed url   path: '@types/easeljs@^1.0.0',
+18 verbose parsed url   href: '@types/easeljs@^1.0.0' }
+19 verbose cache add [ '@types/preloadjs@^0.6.32', null ]
+20 verbose cache add name=undefined spec="@types/preloadjs@^0.6.32" args=["@types/preloadjs@^0.6.32",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '@types/preloadjs@^0.6.32',
+21 verbose parsed url   path: '@types/preloadjs@^0.6.32',
+21 verbose parsed url   href: '@types/preloadjs@^0.6.32' }
+22 verbose cache add [ '@types/soundjs@^0.6.27', null ]
+23 verbose cache add name=undefined spec="@types/soundjs@^0.6.27" args=["@types/soundjs@^0.6.27",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '@types/soundjs@^0.6.27',
+24 verbose parsed url   path: '@types/soundjs@^0.6.27',
+24 verbose parsed url   href: '@types/soundjs@^0.6.27' }
+25 verbose cache add [ '@types/tweenjs@^1.0.0', null ]
+26 verbose cache add name=undefined spec="@types/tweenjs@^1.0.0" args=["@types/tweenjs@^1.0.0",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '@types/tweenjs@^1.0.0',
+27 verbose parsed url   path: '@types/tweenjs@^1.0.0',
+27 verbose parsed url   href: '@types/tweenjs@^1.0.0' }
+28 verbose cache add name="" spec="types/easeljs@^1.0.0" args=["","types/easeljs@^1.0.0"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'types/easeljs@^1.0.0',
+29 verbose parsed url   path: 'types/easeljs@^1.0.0',
+29 verbose parsed url   href: 'types/easeljs@^1.0.0' }
+30 verbose cache add name="" spec="types/preloadjs@^0.6.32" args=["","types/preloadjs@^0.6.32"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'types/preloadjs@^0.6.32',
+31 verbose parsed url   path: 'types/preloadjs@^0.6.32',
+31 verbose parsed url   href: 'types/preloadjs@^0.6.32' }
+32 verbose cache add name="" spec="types/soundjs@^0.6.27" args=["","types/soundjs@^0.6.27"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'types/soundjs@^0.6.27',
+33 verbose parsed url   path: 'types/soundjs@^0.6.27',
+33 verbose parsed url   href: 'types/soundjs@^0.6.27' }
+34 verbose cache add name="" spec="types/tweenjs@^1.0.0" args=["","types/tweenjs@^1.0.0"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'types/tweenjs@^1.0.0',
+35 verbose parsed url   path: 'types/tweenjs@^1.0.0',
+35 verbose parsed url   href: 'types/tweenjs@^1.0.0' }
+36 verbose cache add name="types/easeljs" spec="^1.0.0" args=["types/easeljs","^1.0.0"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '^1.0.0',
+37 verbose parsed url   path: '^1.0.0',
+37 verbose parsed url   href: '^1.0.0' }
+38 verbose addNamed [ 'types/easeljs', '^1.0.0' ]
+39 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+40 verbose cache add name="types/preloadjs" spec="^0.6.32" args=["types/preloadjs","^0.6.32"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '^0.6.32',
+41 verbose parsed url   path: '^0.6.32',
+41 verbose parsed url   href: '^0.6.32' }
+42 verbose addNamed [ 'types/preloadjs', '^0.6.32' ]
+43 verbose addNamed [ null, '>=0.6.32-0 <0.7.0-0' ]
+44 verbose cache add name="types/soundjs" spec="^0.6.27" args=["types/soundjs","^0.6.27"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '^0.6.27',
+45 verbose parsed url   path: '^0.6.27',
+45 verbose parsed url   href: '^0.6.27' }
+46 verbose addNamed [ 'types/soundjs', '^0.6.27' ]
+47 verbose addNamed [ null, '>=0.6.27-0 <0.7.0-0' ]
+48 verbose cache add name="types/tweenjs" spec="^1.0.0" args=["types/tweenjs","^1.0.0"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '^1.0.0',
+49 verbose parsed url   path: '^1.0.0',
+49 verbose parsed url   href: '^1.0.0' }
+50 verbose addNamed [ 'types/tweenjs', '^1.0.0' ]
+51 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+52 silly lockFile 4a869662-types-easeljs-1-0-0 types/easeljs@^1.0.0
+53 verbose lock types/easeljs@^1.0.0 C:\Users\Windows\AppData\Roaming\npm-cache\4a869662-types-easeljs-1-0-0.lock
+54 silly lockFile 52bd2a6e-types-preloadjs-0-6-32 types/preloadjs@^0.6.32
+55 verbose lock types/preloadjs@^0.6.32 C:\Users\Windows\AppData\Roaming\npm-cache\52bd2a6e-types-preloadjs-0-6-32.lock
+56 silly lockFile 30dd51e3-types-soundjs-0-6-27 types/soundjs@^0.6.27
+57 verbose lock types/soundjs@^0.6.27 C:\Users\Windows\AppData\Roaming\npm-cache\30dd51e3-types-soundjs-0-6-27.lock
+58 silly lockFile a151b154-types-tweenjs-1-0-0 types/tweenjs@^1.0.0
+59 verbose lock types/tweenjs@^1.0.0 C:\Users\Windows\AppData\Roaming\npm-cache\a151b154-types-tweenjs-1-0-0.lock
+60 silly addNameRange { name: 'types/easeljs',
+60 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+60 silly addNameRange   hasData: false }
+61 silly addNameRange { name: 'types/preloadjs',
+61 silly addNameRange   range: '>=0.6.32-0 <0.7.0-0',
+61 silly addNameRange   hasData: false }
+62 silly addNameRange { name: 'types/soundjs',
+62 silly addNameRange   range: '>=0.6.27-0 <0.7.0-0',
+62 silly addNameRange   hasData: false }
+63 verbose url raw types/easeljs
+64 verbose url resolving [ 'https://registry.npmjs.org/', './types/easeljs' ]
+65 verbose url resolved https://registry.npmjs.org/types/easeljs
+66 info trying registry request attempt 1 at 23:29:29
+67 http GET https://registry.npmjs.org/types/easeljs
+68 verbose url raw types/preloadjs
+69 verbose url resolving [ 'https://registry.npmjs.org/', './types/preloadjs' ]
+70 verbose url resolved https://registry.npmjs.org/types/preloadjs
+71 info trying registry request attempt 1 at 23:29:29
+72 http GET https://registry.npmjs.org/types/preloadjs
+73 silly addNameRange { name: 'types/tweenjs',
+73 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+73 silly addNameRange   hasData: false }
+74 verbose url raw types/soundjs
+75 verbose url resolving [ 'https://registry.npmjs.org/', './types/soundjs' ]
+76 verbose url resolved https://registry.npmjs.org/types/soundjs
+77 info trying registry request attempt 1 at 23:29:29
+78 http GET https://registry.npmjs.org/types/soundjs
+79 verbose url raw types/tweenjs
+80 verbose url resolving [ 'https://registry.npmjs.org/', './types/tweenjs' ]
+81 verbose url resolved https://registry.npmjs.org/types/tweenjs
+82 info trying registry request attempt 1 at 23:29:29
+83 http GET https://registry.npmjs.org/types/tweenjs
+84 http 405 https://registry.npmjs.org/types/soundjs
+85 silly registry.get cb [ 405,
+85 silly registry.get   { date: 'Tue, 31 Jul 2018 03:29:28 GMT',
+85 silly registry.get     'content-type': 'application/json',
+85 silly registry.get     'content-length': '63',
+85 silly registry.get     connection: 'keep-alive',
+85 silly registry.get     'set-cookie': [ '__cfduid=d83c07b030f064c3d4bfe0c36ac1a7bc61533007767; expires=Wed, 31-Jul-19 03:29:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+85 silly registry.get     allow: 'PUT',
+85 silly registry.get     'cf-ray': '442cfb14f95d305a-YYZ',
+85 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+85 silly registry.get     server: 'cloudflare' } ]
+86 http 405 https://registry.npmjs.org/types/easeljs
+87 silly registry.get cb [ 405,
+87 silly registry.get   { date: 'Tue, 31 Jul 2018 03:29:28 GMT',
+87 silly registry.get     'content-type': 'application/json',
+87 silly registry.get     'content-length': '63',
+87 silly registry.get     connection: 'keep-alive',
+87 silly registry.get     'set-cookie': [ '__cfduid=ded794c765f27018f1880bab74f3a041d1533007767; expires=Wed, 31-Jul-19 03:29:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+87 silly registry.get     allow: 'PUT',
+87 silly registry.get     'cf-ray': '442cfb14fcc93018-YYZ',
+87 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+87 silly registry.get     server: 'cloudflare' } ]
+88 silly lockFile 30dd51e3-types-soundjs-0-6-27 types/soundjs@^0.6.27
+89 silly lockFile 30dd51e3-types-soundjs-0-6-27 types/soundjs@^0.6.27
+90 error Error: Method Not Allowed
+90 error     at errorResponse (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\npm\lib\cache.js:753:14)
+90 error     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\npm\lib\cache.js:773:12
+90 error     at saved (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\npm-registry-client\lib\get.js:148:7)
+90 error     at C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Web Tools\External\npm\node_modules\graceful-fs\polyfills.js:133:7
+90 error     at Object.oncomplete (fs.js:107:15)
+91 error If you need help, you may report this *entire* log,
+91 error including the npm and node versions, at:
+91 error     <http://github.com/npm/npm/issues>
+92 error System Windows_NT 6.2.9200
+93 error command "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\\\node\\node" "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\External\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+94 error cwd C:\Users\Windows\Desktop\web_game_ass2\COMP397_Ass2_BixinChen_300716064
+95 error node -v v0.10.31
+96 error npm -v 1.4.9
+97 error code E405
+98 verbose exit [ 1, true ]
